@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carbon Footprint Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌱 Carbon Footprint Demonstration</h1>
+<p class="subtitle">Small actions. Big impact.</p>
+
+<div class="card">
+  <label>Monthly Electricity Use (kWh)</label>
+  <input type="number" id="electricity" placeholder="e.g. 150">
+
+  <label>Daily Travel (km)</label>
+  <input type="number" id="travel" placeholder="e.g. 20">
+
+  <label>Diet Type</label>
+  <select id="diet">
+    <option value="1">Vegetarian</option>
+    <option value="1.5">Mixed</option>
+    <option value="2">High meat</option>
+  </select>
+
+  <button onclick="calculate()">Calculate Carbon Footprint</button>
+</div>
+
+<div id="result" class="result"></div>
+
+<footer>
+  Technology enabling sustainable choices 🌍
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 <div id="aiTips" class="ai"></div>
